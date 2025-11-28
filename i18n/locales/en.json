@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Professional Tax & Financial Services",
+    "subtitle": "Your trusted partner for financial success and stability.",
+    "cta": "Get a Consultation"
+  },
+  "services": {
+    "title": "Our Services",
+    "tax": {
+      "title": "Tax Preparation",
+      "desc": "Expert tax preparation services for individuals and businesses."
+    },
+    "planning": {
+      "title": "Financial Planning",
+      "desc": "Comprehensive financial strategies to help you reach your goals."
+    },
+    "bookkeeping": {
+      "title": "Bookkeeping",
+      "desc": "Accurate and timely bookkeeping to keep your business on track."
+    }
+  },
+  "about": {
+    "title": "About Index Tax & Financial Inc.",
+    "desc": "We are a dedicated team of financial professionals committed to providing personalized tax and financial solutions. With years of experience, we navigate the complexities of the financial world so you don't have to."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "123 Financial District, Business City, NY 10001",
+    "phone": "(555) 123-4567",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
+
