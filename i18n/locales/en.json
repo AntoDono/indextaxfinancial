@@ -6,28 +6,97 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Professional Tax & Financial Services",
-    "subtitle": "Your trusted partner for financial success and stability.",
+    "title": "Global Vision, Local Expertise",
+    "subtitle": "Combining technical rigor with personalized service for your financial success.",
     "cta": "Get a Consultation"
+  },
+  "features": {
+    "big4": {
+      "title": "Big 4 Expertise",
+      "desc": "Our team of Big 4 alumni brings institutional-grade knowledge to every engagement."
+    },
+    "bilingual": {
+      "title": "Bilingual Excellence",
+      "desc": "Seamless communication in English and Chinese for international clients."
+    },
+    "strategic": {
+      "title": "Strategic Partnership",
+      "desc": "We operate as strategic partners, not just service providers."
+    }
+  },
+  "expertise": {
+    "title": "Why Choose Us",
+    "subtitle": "Institutional Expertise, Personal Dedication",
+    "desc": "Index Tax & Financial Inc. combines the technical rigor of a top-tier national accounting firm with the personalized service of a local partner. Our team of Big 4 alumni provides strategic guidance for success in the US market."
+  },
+  "stats": {
+    "years": {
+      "value": "15+",
+      "label": "Years of Experience"
+    },
+    "clients": {
+      "value": "500+",
+      "label": "Satisfied Clients"
+    },
+    "big4": {
+      "value": "100%",
+      "label": "Big 4 Alumni Team"
+    },
+    "success": {
+      "value": "98%",
+      "label": "Client Retention Rate"
+    }
+  },
+  "approach": {
+    "title": "Our Approach",
+    "subtitle": "Strategic Solutions, Personal Service",
+    "desc": "Unlike traditional tax preparers, we operate as strategic partners for our clients. Whether you're a multinational corporation or a family planning immigration, our bilingual team delivers institutional-grade solutions with personal dedication."
   },
   "services": {
     "title": "Our Services",
-    "tax": {
-      "title": "Tax Preparation",
-      "desc": "Expert tax preparation services for individuals and businesses."
+    "corporate": {
+      "title": "Corporate Architecture & Compliance",
+      "usEntry": {
+        "title": "US Market Entry",
+        "desc": "Comprehensive support for US company registration, business license applications, and equity structure design to ensure optimal tax efficiency for foreign investors."
+      },
+      "financialAssurance": {
+        "title": "Financial Assurance",
+        "desc": "Rigorous financial statement audits (Audit) and reviews tailored for US subsidiaries of foreign firms or businesses seeking capital."
+      },
+      "commercialAdvisory": {
+        "title": "Commercial Advisory",
+        "desc": "Guidance on cross-border mergers and acquisitions (M&A), contract review, and industry-specific regulatory compliance for sectors such as finance, medical, and technology."
+      }
     },
-    "planning": {
-      "title": "Financial Planning",
-      "desc": "Comprehensive financial strategies to help you reach your goals."
+    "private": {
+      "title": "Private Client & Immigration Planning",
+      "assetStructuring": {
+        "title": "Global Asset Structuring",
+        "desc": "Specialized pre-immigration tax planning to mitigate worldwide income tax exposure before establishing US residency."
+      },
+      "wealthPreservation": {
+        "title": "Wealth Preservation",
+        "desc": "Strategic planning for foreign asset reporting (FBAR/FATCA) and real estate tax minimization."
+      },
+      "irsRepresentation": {
+        "title": "IRS Representation",
+        "desc": "Expert defense and negotiation (Audit Representation) for disputes, penalties, and complex tax controversies."
+      }
     },
-    "bookkeeping": {
-      "title": "Bookkeeping",
-      "desc": "Accurate and timely bookkeeping to keep your business on track."
+    "digital": {
+      "title": "Digital Economy Solutions",
+      "ecommerce": {
+        "title": "E-Commerce Tax Custody",
+        "desc": "Specialized sales tax nexus management and compliance for cross-border sellers on platforms like Amazon and Shopify."
+      }
     }
   },
   "about": {
     "title": "About Index Tax & Financial Inc.",
-    "desc": "We are a dedicated team of financial professionals committed to providing personalized tax and financial solutions. With years of experience, we navigate the complexities of the financial world so you don't have to."
+    "subtitle": "美國長越財務會計",
+    "desc": "Index Tax & Financial Inc. (美國長越財務會計) is a full-service CPA and consulting firm dedicated to bridging the financial gap between the United States and global markets. Headquartered in the San Gabriel Valley, our firm is built on a foundation of \"Big 4\" accounting pedigree and Fortune 500 consultancy experience. We specialize in complex cross-border financial architecture, serving High-Net-Worth Individuals (HNWIs) and transnational enterprises navigating the intricacies of US tax law and business compliance.",
+    "desc2": "Unlike traditional tax preparers, we operate as strategic partners for our clients. Whether you are a multinational corporation requiring statutory audits and equity structuring, or a family navigating pre-immigration tax planning, our bilingual team delivers institutional-grade solutions with personal dedication."
   },
   "contact": {
     "title": "Contact Us",
@@ -41,7 +110,14 @@
     }
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "sitemap": "Sitemap",
+    "followUs": "Follow Us",
+    "getInTouch": "Get In Touch"
   }
 }
 
