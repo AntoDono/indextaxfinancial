@@ -147,21 +147,21 @@ onBeforeUnmount(() => {
           <NuxtLink 
             :to="localePath('/') + '#services'" 
             class="px-2 hover:text-autumn-ember transition-colors"
-            @click="(e) => handleNavClick('#services', e)"
+            @click="(e: Event) => handleNavClick('#services', e)"
           >
             {{ $t('nav.services') }}
           </NuxtLink>
           <NuxtLink 
             :to="localePath('/') + '#about'" 
             class="px-2 hover:text-autumn-ember transition-colors"
-            @click="(e) => handleNavClick('#about', e)"
+            @click="(e: Event) => handleNavClick('#about', e)"
           >
             {{ $t('nav.about') }}
           </NuxtLink>
           <NuxtLink 
             :to="localePath('/') + '#contact'" 
             class="px-2 hover:text-autumn-ember transition-colors"
-            @click="(e) => handleNavClick('#contact', e)"
+            @click="(e: Event) => handleNavClick('#contact', e)"
           >
             {{ $t('nav.contact') }}
           </NuxtLink>
@@ -243,21 +243,21 @@ onBeforeUnmount(() => {
             </NuxtLink>
             <NuxtLink
               :to="localePath('/') + '#services'"
-              @click="(e) => handleNavClick('#services', e)"
+              @click="(e: Event) => handleNavClick('#services', e)"
               class="py-4 text-xl font-serif border-b border-white/20 hover:text-autumn-ember transition-colors"
             >
               {{ $t('nav.services') }}
             </NuxtLink>
             <NuxtLink
               :to="localePath('/') + '#about'"
-              @click="(e) => handleNavClick('#about', e)"
+              @click="(e: Event) => handleNavClick('#about', e)"
               class="py-4 text-xl font-serif border-b border-white/20 hover:text-autumn-ember transition-colors"
             >
               {{ $t('nav.about') }}
             </NuxtLink>
             <NuxtLink
               :to="localePath('/') + '#contact'"
-              @click="(e) => handleNavClick('#contact', e)"
+              @click="(e: Event) => handleNavClick('#contact', e)"
               class="py-4 text-xl font-serif border-b border-white/20 hover:text-autumn-ember transition-colors"
             >
               {{ $t('nav.contact') }}

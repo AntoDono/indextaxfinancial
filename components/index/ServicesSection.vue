@@ -12,7 +12,7 @@
           <div
             v-for="(service, index) in allServices"
             :key="index"
-            :ref="el => { 
+            :ref="(el: HTMLElement | null) => { 
               if (el) {
                 const element = el as HTMLElement
                 itemRefs[index] = element
