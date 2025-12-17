@@ -39,8 +39,8 @@ const stats = computed(() => [
     label: t('stats.clients.label')
   },
   {
-    value: t('stats.big4.value'),
-    label: t('stats.big4.label')
+    value: t('stats.expertise.value'),
+    label: t('stats.expertise.label')
   },
   {
     value: t('stats.success.value'),
@@ -54,10 +54,12 @@ const hasAnimated = ref(false)
 // Parse stat value to extract number and suffix
 const parseStatValue = (value: string) => {
   const match = value.match(/(\d+)([+%]?)/)
-  if (!match || !match[1]) return { number: 0, suffix: '' }
+  if (!match || !match[1]) return { number: null, suffix: '', isText: true, text: value }
   return {
     number: parseInt(match[1], 10),
-    suffix: (match[2] ?? '')
+    suffix: (match[2] ?? ''),
+    isText: false,
+    text: value
   }
 }
 
@@ -65,7 +67,16 @@ const animateValue = (index: number) => {
   const stat = stats.value[index]
   if (!stat) return
   const statValue = stat.value
-  const { number: targetValue, suffix } = parseStatValue(statValue)
+  const parsed = parseStatValue(statValue)
+  
+  // If it's text (like "IRS & FTB"), just display it directly
+  if (parsed.isText) {
+    displayValues.value[index] = parsed.text
+    return
+  }
+  
+  // Otherwise animate the number
+  const { number: targetValue, suffix } = parsed
   
   const duration = 2000
   const steps = 60

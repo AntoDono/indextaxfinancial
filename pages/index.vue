@@ -1,23 +1,28 @@
-<script setup lang="ts">
-const showLoading = ref(true)
-
-onMounted(() => {
-  setTimeout(() => {
-    showLoading.value = false
-  }, 2000) // 3 seconds
-})
-</script>
-
 <template>
   <div>
-    <Loading :show="showLoading" :duration="1" />
+    <Loading :show="isLoading" :duration="0.7" />
+    
     <IndexHeroSection />
     <IndexFeaturesSection />
-    <IndexExpertiseSection />
     <IndexServicesSection />
-    <IndexApproachSection />
     <IndexAboutSection />
-    <IndexContactSection />
+    <IndexApproachSection />
+    <IndexExpertiseSection />
+    <IndexCoreTeamSection />
+    <IndexWhyChooseUsSection />
+    <IndexWhyChooseUsSection2 />
+    <IndexMapSection />
   </div>
 </template>
+
+<script setup lang="ts">
+const isLoading = ref(true)
+
+onMounted(() => {
+  // Hide loading screen after a short delay to ensure content is ready
+  setTimeout(() => {
+    isLoading.value = false
+  }, 1500)
+})
+</script>
 

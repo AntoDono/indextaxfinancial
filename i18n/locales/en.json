@@ -26,25 +26,25 @@
   },
   "expertise": {
     "title": "Why Choose Us",
-    "subtitle": "Institutional Expertise, Personal Dedication",
-    "desc": "Index Tax & Financial Inc. combines the technical rigor of a top-tier national accounting firm with the personalized service of a local partner. Our team of Big 4 alumni provides strategic guidance for success in the US market."
+    "subtitle": "Expert Team with IRS & State Tax Experience",
+    "desc": "Our senior team of tax, audit, and corporate management experts bring years of hands-on experience with the IRS (U.S. Internal Revenue Service) and FTB (California Franchise Tax Board). We specialize in helping foreign enterprises navigate US tax law and compliance, providing strategic tax planning and comprehensive financial support for your success in the American market."
   },
   "stats": {
     "years": {
-      "value": "15+",
+      "value": "20+",
       "label": "Years of Experience"
     },
     "clients": {
       "value": "500+",
       "label": "Satisfied Clients"
     },
-    "big4": {
-      "value": "100%",
-      "label": "Big 4 Alumni Team"
+    "expertise": {
+      "value": "100+",
+      "label": "Expert Experience"
     },
     "success": {
-      "value": "98%",
-      "label": "Client Retention Rate"
+      "value": "100%",
+      "label": "Compliance Standards"
     }
   },
   "approach": {
@@ -52,62 +52,158 @@
     "subtitle": "Strategic Solutions, Personal Service",
     "desc": "Unlike traditional tax preparers, we operate as strategic partners for our clients. Whether you're a multinational corporation or a family planning immigration, our bilingual team delivers institutional-grade solutions with personal dedication."
   },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "subtitle": "Your Trusted Financial Partner",
+    "desc": "We are more than just accountants — we are your long-term strategic partners in global development.",
+    "title2": "Our Commitment",
+    "subtitle2": "Customized Solutions & Partnership",
+    "desc2": "We provide tailored solutions and long-term support for your global business success.",
+    "reasons": {
+      "expertise": {
+        "title": "International Tax & Corporate Compliance Experts",
+        "desc": "We specialize in cross-border operations and global tax management, helping clients establish operations in the US market."
+      },
+      "comprehensive": {
+        "title": "Complete One-Stop Service",
+        "desc": "From company formation to daily operations, we provide comprehensive support ensuring compliant business operations."
+      },
+      "local": {
+        "title": "Deep Local Experience",
+        "desc": "Rooted in California for years, we understand corporate structures and tax compliance requirements."
+      },
+      "customized": {
+        "title": "High-End Customized Services",
+        "desc": "Tailored tax and financial strategies for clients from different countries, optimizing global asset allocation."
+      },
+      "partnership": {
+        "title": "Long-Term Strategic Partnership",
+        "desc": "We are your long-term partner in global development, providing continuous financial support and optimization."
+      }
+    }
+  },
   "services": {
     "title": "Our Services",
+    "tax": {
+      "title": "Tax Services"
+    },
+    "planning": {
+      "title": "Financial Planning"
+    },
+    "bookkeeping": {
+      "title": "Bookkeeping & Accounting"
+    },
+    "international": {
+      "title": "International Tax & Cross-Border Compliance",
+      "globalTax": {
+        "title": "Global Tax Planning",
+        "desc": "Comprehensive international tax strategies to optimize your global tax position and ensure compliance across jurisdictions."
+      },
+      "crossBorder": {
+        "title": "Cross-Border Corporate Tax Optimization",
+        "desc": "Specialized tax planning for multinational corporations to minimize tax burdens while maintaining full compliance."
+      },
+      "assetReporting": {
+        "title": "Overseas Asset Reporting (FBAR, FATCA)",
+        "desc": "Expert guidance on foreign bank account reporting and Foreign Account Tax Compliance Act requirements."
+      },
+      "treaties": {
+        "title": "Tax Treaties & Double Taxation Solutions",
+        "desc": "Strategic application of international tax treaties to eliminate or reduce double taxation exposure."
+      },
+      "foreignOwned": {
+        "title": "Foreign-Owned U.S. Business Tax Compliance",
+        "desc": "Complete tax compliance support for foreign-owned U.S. entities, including form 5472 and transfer pricing."
+      }
+    },
     "corporate": {
-      "title": "Corporate Architecture & Compliance",
-      "usEntry": {
-        "title": "US Market Entry",
-        "desc": "Comprehensive support for US company registration, business license applications, and equity structure design to ensure optimal tax efficiency for foreign investors."
+      "title": "Business Structuring & Corporate Services",
+      "formation": {
+        "title": "U.S. Entity Formation & Foreign Subsidiary Setup",
+        "desc": "Comprehensive support for U.S. company registration and foreign subsidiary establishment with optimal structure design."
       },
-      "financialAssurance": {
-        "title": "Financial Assurance",
-        "desc": "Rigorous financial statement audits (Audit) and reviews tailored for US subsidiaries of foreign firms or businesses seeking capital."
+      "financial": {
+        "title": "Corporate Financial & Tax Planning",
+        "desc": "Strategic financial management and tax planning to maximize profitability and minimize tax liability."
       },
-      "commercialAdvisory": {
-        "title": "Commercial Advisory",
-        "desc": "Guidance on cross-border mergers and acquisitions (M&A), contract review, and industry-specific regulatory compliance for sectors such as finance, medical, and technology."
+      "compliance": {
+        "title": "Multi-National Corporate Compliance",
+        "desc": "Ensure your multinational operations comply with all U.S. federal, state, and local regulations."
+      },
+      "restructuring": {
+        "title": "M&A & Business Restructuring",
+        "desc": "Expert guidance on mergers, acquisitions, and corporate restructuring to optimize tax and operational efficiency."
+      },
+      "gaap": {
+        "title": "U.S. Business Accounting & GAAP Compliance",
+        "desc": "Full-service accounting and financial reporting in compliance with U.S. GAAP standards."
       }
     },
-    "private": {
-      "title": "Private Client & Immigration Planning",
-      "assetStructuring": {
-        "title": "Global Asset Structuring",
-        "desc": "Specialized pre-immigration tax planning to mitigate worldwide income tax exposure before establishing US residency."
+    "investment": {
+      "title": "Investment Planning & High-Net-Worth Tax Advisory",
+      "realEstate": {
+        "title": "Foreign Real Estate Investment Tax Structuring",
+        "desc": "Optimize tax structures for foreign investors in U.S. real estate to minimize FIRPTA and state tax exposure."
       },
-      "wealthPreservation": {
-        "title": "Wealth Preservation",
-        "desc": "Strategic planning for foreign asset reporting (FBAR/FATCA) and real estate tax minimization."
+      "familyOffice": {
+        "title": "Family Office & Estate Tax Planning",
+        "desc": "Comprehensive wealth management and estate planning for high-net-worth families and family offices."
       },
-      "irsRepresentation": {
-        "title": "IRS Representation",
-        "desc": "Expert defense and negotiation (Audit Representation) for disputes, penalties, and complex tax controversies."
+      "expat": {
+        "title": "Expat Tax Filing & Optimization",
+        "desc": "Specialized cross-border personal tax filing and optimization strategies for expatriates and global citizens."
       }
     },
-    "digital": {
-      "title": "Digital Economy Solutions",
-      "ecommerce": {
-        "title": "E-Commerce Tax Custody",
-        "desc": "Specialized sales tax nexus management and compliance for cross-border sellers on platforms like Amazon and Shopify."
+    "enterprise": {
+      "title": "Global Enterprise Services",
+      "taxManagement": {
+        "title": "Corporate Tax & Financial Management",
+        "desc": "Full-service U.S. company registration, financial management, tax filing and compliance to ensure smooth market entry."
+      },
+      "legalAdvisory": {
+        "title": "Business Compliance & Legal Advisory",
+        "desc": "Corporate legal structure planning, equity design, contract review and commercial legal consulting for U.S. compliance."
+      },
+      "investmentStructure": {
+        "title": "International Investment Structuring",
+        "desc": "Design cross-border investment structures, tax optimization and capital operation strategies for compliant global fund flows."
+      },
+      "marketExpansion": {
+        "title": "U.S. Market Expansion & Business Advisory",
+        "desc": "Market entry strategies, supply chain management, business development and investment consulting for rapid U.S. market adaptation."
       }
     }
   },
   "about": {
     "title": "About Index Tax & Financial Inc.",
-    "subtitle": "美國長越財務會計",
-    "desc": "Index Tax & Financial Inc. (美國長越財務會計) is a full-service CPA and consulting firm dedicated to bridging the financial gap between the United States and global markets. Headquartered in the San Gabriel Valley, our firm is built on a foundation of \"Big 4\" accounting pedigree and Fortune 500 consultancy experience. We specialize in complex cross-border financial architecture, serving High-Net-Worth Individuals (HNWIs) and transnational enterprises navigating the intricacies of US tax law and business compliance.",
-    "desc2": "Unlike traditional tax preparers, we operate as strategic partners for our clients. Whether you are a multinational corporation requiring statutory audits and equity structuring, or a family navigating pre-immigration tax planning, our bilingual team delivers institutional-grade solutions with personal dedication."
+    "subtitle": "IndexTax & Financial Services",
+    "desc": "Index Tax & Financial Inc. is headquartered in Los Angeles, California, and is a professional firm specializing in international tax planning, cross-border business management, financial compliance, and investment structure development. Since our founding in 2006, we have been dedicated to providing comprehensive tax and financial services to global enterprises and high-net-worth clients."
+  },
+  "coreTeam": {
+    "title": "Our Core Team",
+    "subtitle": "Senior Tax & Audit Experts",
+    "desc": "Index Tax & Financial Inc. has an experienced team of tax, audit, and corporate management experts, including senior accountants, tax advisors, and auditors. All team members have years of practical experience with the IRS (U.S. Internal Revenue Service) and FTB (California Franchise Tax Board), providing the most professional tax compliance and audit support for our clients."
   },
   "contact": {
     "title": "Contact Us",
-    "address": "123 Financial District, Business City, NY 10001",
-    "phone": "(555) 123-4567",
+    "address": "923 E Valley Blvd STE #111 San Gabriel, CA 91776, USA",
+    "phone": "+1 (626) 288 0830",
+    "phone2": "+1 (626) 288 0831",
+    "email": "info{'@'}indextf.com",
     "form": {
       "name": "Name",
       "email": "Email",
+      "phone": "Phone Number",
       "message": "Message",
-      "send": "Send Message"
+      "send": "Send Inquiry"
     }
+  },
+  "map": {
+    "title": "Visit Our Office",
+    "description": "Find us in the heart of San Gabriel, California. We welcome you to visit our office during business hours.",
+    "addressTitle": "Address",
+    "phoneTitle": "Phone",
+    "hoursTitle": "Business Hours"
   },
   "footer": {
     "rights": "All rights reserved.",
@@ -117,7 +213,12 @@
     "terms": "Terms of Service",
     "sitemap": "Sitemap",
     "followUs": "Follow Us",
-    "getInTouch": "Get In Touch"
+    "getInTouch": "Get In Touch",
+    "description": "We're here to help! Reach out via the form or visit us in person during business hours. Our team at INDEX TAX & FINANCIAL INC is ready to assist with all your accounting and tax needs.",
+    "companyName": "INDEX TAX & FINANCIAL INC",
+    "hours": "Hours",
+    "openToday": "Open today",
+    "hoursTime": "09:00 am – 06:00 pm"
   }
 }
 
