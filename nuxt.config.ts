@@ -4,7 +4,15 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
   css: ['~/assets/global.css'],
-  
+
+  // Client portal (ClientPortal, hosted on Netlify). Override per environment
+  // with NUXT_PUBLIC_PORTAL_URL.
+  runtimeConfig: {
+    public: {
+      portalUrl: 'https://app.indextaxfinancials.com',
+    },
+  },
+
   app: {
     head: {
       htmlAttrs: {

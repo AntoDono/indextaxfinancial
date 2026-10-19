@@ -1,75 +1,43 @@
-# Nuxt Minimal Starter
+# Index Tax & Financial — Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Public marketing site for Index Tax & Financial Inc (https://indextaxfinancials.com).
+Nuxt 4 + Tailwind, static output, deployed on Netlify. English and Chinese.
 
-## Setup
-
-Make sure to install dependencies:
+## Develop
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
+bun run dev        # http://localhost:3000
 ```
 
-## Development Server
+## Build / deploy
 
-Start the development server on `http://localhost:3000`:
+Netlify runs `bun run generate` and publishes the static output (see `netlify.toml`).
+Pushing to the deployed branch publishes the site.
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+bun run generate   # static site in .output/public
+npx serve .output/public
 ```
 
-## Production
+## Structure
 
-Build the application for production:
+| Path | What |
+|---|---|
+| `pages/` | `index` (home), `privacy`, `terms`, `sitemap` |
+| `components/index/` | Home page sections (hero, services, about, team, map, …) |
+| `components/Navbar.vue` | Top bar: section links, **Client Login** button, language switch |
+| `components/Footer.vue` | **Client Portal** sign-up / log-in call to action, links, contact details |
+| `i18n/locales/` | `en.json`, `zh.json` — every visible string lives here, keep both in sync |
+| `tailwind.config.ts` | Brand colors (`copper`, `autumn-ember`, `coffee-bean`, `charcoal`) and fonts |
 
-```bash
-# npm
-npm run build
+## Client portal links
 
-# pnpm
-pnpm build
+The navbar and footer link to the client portal (ClientPortal app):
 
-# yarn
-yarn build
+- Sign up: `<portalUrl>/auth/signup`
+- Log in: `<portalUrl>/auth/login`
 
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+`portalUrl` defaults to `https://app.indextaxfinancials.com` (`nuxt.config.ts` →
+`runtimeConfig.public.portalUrl`). Override with the `NUXT_PUBLIC_PORTAL_URL` environment
+variable at build time, e.g. to point a preview build at a staging portal.

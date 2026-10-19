@@ -3,7 +3,8 @@
     "home": "Home",
     "services": "Services",
     "about": "About Us",
-    "contact": "Contact"
+    "contact": "Contact",
+    "clientLogin": "Client Login"
   },
   "hero": {
     "title": "Global Vision, Local Expertise",
@@ -204,6 +205,14 @@
     "addressTitle": "Address",
     "phoneTitle": "Phone",
     "hoursTitle": "Business Hours"
+  },
+  "portal": {
+    "title": "Client Portal",
+    "heading": "Ready to work with us?",
+    "body": "Create your client portal account to upload documents, follow your tax return, sign forms and pay online.",
+    "signup": "Create an account",
+    "existing": "Already a client?",
+    "login": "Log in"
   },
   "footer": {
     "rights": "All rights reserved.",

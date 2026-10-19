@@ -1,10 +1,42 @@
 <script setup lang="ts">
 const localePath = useLocalePath()
+const portalUrl = useRuntimeConfig().public.portalUrl.replace(/\/$/, '')
+const signupUrl = `${portalUrl}/auth/signup`
+const loginUrl = `${portalUrl}/auth/login`
 </script>
 
 <template>
   <footer id="contact" class="bg-charcoal text-white">
     <div class="container mx-auto px-6 lg:px-8">
+      <!-- Client Portal call to action -->
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-8 py-12 border-b border-white/10">
+        <div class="max-w-xl">
+          <p class="text-sm font-semibold uppercase tracking-wider text-copper mb-2">
+            {{ $t('portal.title') }}
+          </p>
+          <h2 class="text-2xl md:text-3xl font-serif font-semibold mb-3">
+            {{ $t('portal.heading') }}
+          </h2>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            {{ $t('portal.body') }}
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4 shrink-0">
+          <a
+            :href="signupUrl"
+            class="inline-block text-center bg-autumn-ember hover:bg-copper text-white font-bold py-3 px-8 rounded transition-colors duration-300 shadow-lg"
+          >
+            {{ $t('portal.signup') }}
+          </a>
+          <p class="text-sm text-gray-400 text-center sm:text-left">
+            {{ $t('portal.existing') }}
+            <a :href="loginUrl" class="text-white font-semibold underline underline-offset-4 hover:text-copper transition-colors duration-200">
+              {{ $t('portal.login') }}
+            </a>
+          </p>
+        </div>
+      </div>
+
       <!-- Main Footer Content -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-16 border-b border-white/10">
         <!-- Brand Section -->

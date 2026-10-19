@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { locale, setLocale } = useI18n()
 const localePath = useLocalePath()
+const loginUrl = `${useRuntimeConfig().public.portalUrl.replace(/\/$/, '')}/auth/login`
 
 const isDropdownOpen = ref(false)
 const isMobileMenuOpen = ref(false)
@@ -165,7 +166,15 @@ onBeforeUnmount(() => {
           >
             {{ $t('nav.contact') }}
           </NuxtLink>
-  
+
+          <!-- Client portal login -->
+          <a
+            :href="loginUrl"
+            class="ml-4 bg-white text-copper font-semibold px-4 py-1.5 rounded hover:bg-autumn-ember hover:text-white transition-colors text-sm"
+          >
+            {{ $t('nav.clientLogin') }}
+          </a>
+
           <!-- Language Switcher Dropdown -->
           <div class="language-dropdown relative ml-4">
             <button 
@@ -262,6 +271,15 @@ onBeforeUnmount(() => {
             >
               {{ $t('nav.contact') }}
             </NuxtLink>
+
+            <!-- Mobile client portal login -->
+            <a
+              :href="loginUrl"
+              @click="closeMobileMenu"
+              class="mt-6 block text-center bg-white text-copper font-semibold py-3 px-4 rounded-lg hover:bg-autumn-ember hover:text-white transition-colors"
+            >
+              {{ $t('nav.clientLogin') }}
+            </a>
 
             <!-- Mobile Language Switcher -->
             <div class="mt-8 pt-8 border-t border-white/20">
